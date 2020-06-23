@@ -1,0 +1,227 @@
+
+/*Caracteristique générale du site*/
+
+@font-face {
+    font-family: 'acherusgrotesque-regular';
+    src: url('fonts/acherusgrotesque-regular-webfont.woff2') format('woff2'),
+         url('fonts/acherusgrotesque-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body
+{
+font-family:acherusgrotesque-regular, Impact, "Arial Black", Arial, Verdana, sans-serif;
+	width: 900px;
+	margin: auto;
+	background-image: url('images/fond_jaune.png');
+}
+
+header h1
+{
+	color: black;
+	text-align: center;
+	font-size: 1.8em;
+}
+
+header h2
+{
+	color: #1290D0;
+	text-align: center;
+	font-style: italic;
+	font-size: 1em;
+}
+
+
+#photo
+{
+	float: right;
+	margin-right: 20px;
+	margin-top: 10px;
+
+}
+
+
+header img
+{
+	
+
+	border-radius: 12px;
+	border: 1px solid black;
+	box-shadow: 6px 6px 0px #EFB05D;
+
+}
+
+
+.dimenssion
+{
+
+	width: 900px;
+	margin: auto;
+	height: 500px;	
+}
+
+
+#conteneur
+{
+  
+    justify-content: center;
+    text-decoration: none;
+    margin-left:auto;
+    margin-right:auto;
+    display: flex;
+    flex-direction: row;
+       
+}
+
+.element
+{
+
+background-color: none;	
+margin: auto;
+width: auto;
+margin-top: 0px;
+font-size: 0.9em;
+margin-left: 30px;
+margin-right: auto;
+text-decoration: none;
+}
+
+.element h1
+{
+
+	color: #EFB05D;
+	text-shadow: 1px 2px 0px black;
+	font-size: 1.5em;
+
+}
+
+
+#conteneur_header
+{
+  
+   
+    display: flex;
+
+    justify-content: center;
+    
+    
+       
+}
+
+
+.element_header
+{
+	
+		
+		width: 900px;
+		height: 100px;
+		margin-right: auto;
+
+
+}
+
+
+
+.lisiere
+{
+	border: 1px solid gray;
+	width: 80px;
+	height: 310px;
+	border-radius: 15px;
+	background-color: gray;
+	float: left;
+	margin-top: 10px;
+}
+
+
+a:visited
+{
+color:#1FB6C1;
+}
+a:hover {
+	color: #EFB05D;
+}
+
+
+
+/* Media*/
+@media screen and (max-width: 1024px)
+{
+   
+.dimenssion
+{
+
+	width: 500px;
+	
+	height: 500px;
+	
+	margin-left: 20px;
+	
+}
+
+
+
+
+#conteneur
+{
+  
+     flex-direction: column;
+       
+}
+
+
+.lisiere
+{
+
+	display: none;
+}
+
+
+header h1
+{
+	color: black;
+	text-align: center;
+	font-size: 1.2em;
+}
+
+header h2
+{
+	color: #1290D0;
+	text-align: center;
+	font-style: italic;
+	font-size: 0.63em;
+}
+
+
+
+.element h1
+{
+
+	color: #EFB05D;
+	text-shadow: 1px 2px 0px black;
+	font-size: 1.2em;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
