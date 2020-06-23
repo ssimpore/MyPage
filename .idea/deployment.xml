@@ -1,10 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-<<<<<<< HEAD
-  <component name="PublishConfigData" autoUpload="Always" serverName="Mon site">
-=======
-  <component name="PublishConfigData" serverName="Mon site">
->>>>>>> origin/master
+  <component name="PublishConfigData">
     <serverData>
       <paths name="Mon site">
         <serverdata>
@@ -14,9 +10,5 @@
         </serverdata>
       </paths>
     </serverData>
-<<<<<<< HEAD
-    <option name="myAutoUpload" value="ALWAYS" />
-=======
->>>>>>> origin/master
   </component>
 </project>
