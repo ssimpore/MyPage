@@ -1,63 +1,63 @@
+.truc-a-centrer {
+    position: absolute;
+    top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
 
-#blocpage
-{
-    width: 900px;
-    margin: auto;
-    background: cadetblue;
 }
 
-body
-{
+body {
+    margin: 0;
     background: antiquewhite;
-
 }
 
-
-
-.menu li {
-    display: inline-block ;
-}
-
-.menu a {
-    display: block ;
-    width: 100px ;
-    padding: 5px 0 ;
-    text-align: center ;
-    border: 1px solid #ffe843 ;
-   background-color: #ed2794;
-    color: #ffe843 ;
-    text-decoration: none ;
-    margin: 10px ;
-    border-radius: 10px;
-
-}
-
-
-
-nav a
+h1
 {
-    font-size: 1.2em;
-    color: #181818;
-    padding-bottom: 3px;
+
+    color: chocolate;
+}
+
+.photo
+{
+    /*margin: auto;*/
+    /*padding: 50px 50px;*/
+}
+
+.photo_p
+{
+    width: 10%;
+    height: 10%;
+
+}
+
+.reseau
+{
+   /*background-color: chocolate;*/
+    margin-left: 0;
+    display: flex;
+    justify-content: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: dimgray;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
     text-decoration: none;
 }
 
-
-#reseau
-{
-    margin: auto;
-    border: 1px solid #ffe843 ;
-    background-color: antiquewhite;
-    border-radius: 10px;
-
-}
-
-#contact
-{
-
-    font-style: italic;
-    font-weight: bold;
-
-
-
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: chocolate;
 }
