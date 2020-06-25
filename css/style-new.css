@@ -1,47 +1,35 @@
-.truc-a-centrer {
-    position: absolute;
-    /*top: 50%; left: 50%;*/
-    /*transform: translate(-50%, -50%);*/
-    margin: auto;
-    padding: 222px 150px;
+.photo
+{
+    width: 10%;
+    height: 10%;
+    border-radius: 10em;
+    image-resolution: snap;
+
+}
+#contenu{
+    color: blue;
+    font-size: 30px;
+    font-style: italic;
+}
+h1{
+    color: brown;
+    font-style: italic;
 }
 
 #corps
 {
     width: 900px;
     margin: auto;
+    background: none;
 
 }
-
-
-body {
-    margin: 0;
-    background: antiquewhite;
-}
-
-h1
+.fond
 {
-
-    color: chocolate;
-    font-style: italic;
-}
-
-.photo
-{
-    /*margin: auto;*/
-    /*padding: 50px 50px;*/
-}
-
-.photo_p
-{
-    width: 10%;
-    height: 10%;
-
+    background: aquamarine;
 }
 
 .reseau
 {
-   /*background-color: chocolate;*/
     margin-left: 0;
     display: flex;
     justify-content: left;
@@ -53,6 +41,9 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: dimgray;
+    border-radius: 20px 20px;
+    box-sizing: border-box;
+
 }
 
 li {
